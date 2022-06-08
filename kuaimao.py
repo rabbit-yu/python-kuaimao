@@ -91,6 +91,9 @@ if __name__ == '__main__':
     listAll = 'listAll'
     getUserInfo = 'getUserInfo'
     km = Km()
+    # 爬取用户所有视频，uId为用户id
     km.run(getUserInfo, uId=39321400)
+    # 爬取热门视频
+    km.run(listHot)
 
 
